@@ -81,12 +81,12 @@ h3 {
 }
 
 /** Links */
-.e-content p a {
-  color: #45C4B0;
-  text-decoration: none;
+.e-content p a, .h-entry a {
+  color: #F1F1F1;
+  text-decoration: underline;
 }
 
-.e-content p a:visited {
+.e-content p a:hover, .e-content p a:visited, .h-entry a:hover {
   color: #45C4B0;
 }
 
@@ -203,7 +203,7 @@ img.site-image {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
-  color: #F1F1F150;
+  color: #F1F1F170;
   margin-right: 14px;
 }
 
@@ -221,7 +221,7 @@ img.site-image {
 }
 
 .navigation .page-link:visited, a.date:visited, footer p a:visited {
-  color: #F1F1F150;
+  color: #F1F1F170;
 }
 
 footer p {
@@ -310,5 +310,10 @@ video {
 }
 
 .archive_categories p a {
+  color: #F1F1F170;
+}
+
+.archive_categories p a:hover {
   color: #F1F1F1;
+  text-decoration: underline;
 }
