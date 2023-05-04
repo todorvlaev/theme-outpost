@@ -194,6 +194,10 @@ img.site-image {
   margin-right: 18px;
 }
 
+.navigation .page-link {
+  line-height: 100%;
+}
+
 a.date:hover {
   color: #FAC919;
   text-decoration: underline;
