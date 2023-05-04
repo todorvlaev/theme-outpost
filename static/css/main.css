@@ -61,8 +61,12 @@ h1, h1 a, h1 a:visited {
   letter-spacing: -.5px;
 }
 
-.h-entry h1:hover {
+.h-entry h1 a {
   color: #F1F1F1;
+  text-decoration: none;
+}
+
+.h-entry h1 a:hover {
   text-decoration: underline;
 }
 
@@ -88,11 +92,6 @@ h3 {
 
 .e-content p a:hover, .e-content p a:visited, .h-entry a:hover {
   color: #45C4B0;
-}
-
-.e-content p a:hover {
-  color: #45C4B090;
-  text-decoration: underline;
 }
 
 a, p a {
@@ -241,6 +240,14 @@ footer p {
 .contact-list, .social-media-list {
   list-style: none;
   margin-left: 0;
+}
+
+.site-footer .copy {
+  font-size: 28px;
+}
+
+.site-footer .footer-title {
+  margin-left: 10px;
 }
 
 /** Page content */
