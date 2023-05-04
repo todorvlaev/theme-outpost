@@ -11,7 +11,7 @@ body {
   line-height: 150%;
   font-weight: normal;
   color: #F1F1F1;
-  background-color: #232323;
+  background-color: #012030;
   margin: 120px auto;
   padding: 0 32px;
 }
@@ -75,23 +75,23 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #FAC919;
+  color: #45C4B0;
   margin: 0 0 24px 0;
   display: inline-block;
 }
 
 /** Links */
 .e-content p a {
-  color: #FAC919;
+  color: #45C4B0;
   text-decoration: none;
 }
 
 .e-content p a:visited {
-  color: #FAC919;
+  color: #45C4B0;
 }
 
 .e-content p a:hover {
-  color: #cda100;
+  color: #45C4B090;
   text-decoration: underline;
 }
 
@@ -105,7 +105,7 @@ blockquote {
   padding-left: 36px;
   color: #F1F1F1;
   margin: 32px 0 24px 0;
-  border-left: 10px solid #FAC919;
+  border-left: 10px solid #45C4B0;
 }
 
 blockquote > :last-child {
@@ -297,4 +297,18 @@ li.h-entry:last-of-type {
 
 video {
 	max-width: 100%;
+}
+
+/** Archive **/
+.archive_categories {
+  border-bottom: 0 !important;
+}
+
+.archive_categories p {
+  display: inline;
+  margin-right: 14px;
+}
+
+.archive_categories p a {
+  color: #F1F1F1;
 }
