@@ -64,7 +64,7 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #2a7ae2;
+  color: #FAC919;
   margin: 0 0 24px 0;
   display: inline-block;
 }
@@ -82,6 +82,10 @@ a:visited {
 a:hover {
   color: #cda100;
   text-decoration: underline;
+}
+
+a, p a {
+  transition: all .2s ease;
 }
 
 /** Blockquotes */
@@ -177,6 +181,10 @@ img.site-image {
   color: #F1F1F1;
 }
 
+.site-title:hover {
+  text-decoration: none;
+}
+
 .navigation .page-link, .date, a.date, footer p, footer p a {
   font-family: 'Inconsolata', monospace;
   text-decoration: none;
@@ -186,6 +194,15 @@ img.site-image {
   letter-spacing: 1px;
   color: #F1F1F150;
   margin-right: 18px;
+}
+
+a.date:hover {
+  color: #FAC919;
+  text-decoration: underline;
+}
+
+.post p.date {
+  margin-bottom: 0;
 }
 
 .navigation .page-link:visited, a.date:visited, footer p a:visited {
