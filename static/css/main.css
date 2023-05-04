@@ -17,7 +17,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 /** Images */
@@ -78,7 +78,7 @@ blockquote {
   font-size: 28px;
   padding-left: 36px;
   color: #F1F1F1;
-  margin: 36px 0;
+  margin: 32px 0 24px 0;
   border-left: 10px solid #2a7ae2;
 }
 
@@ -158,17 +158,12 @@ img.site-image {
   font-size: 56px;
   letter-spacing: -.25px;
   margin: 0;
-  text-transform: lowercase;
   color: #F1F1F1;
   text-decoration: none;
 }
 
 .site-title, .site-title:visited {
   color: #F1F1F1;
-}
-
-.dot {
-  color: #2a7ae2;
 }
 
 .navigation .page-link, .date, .date a, footer p, footer p a {
@@ -182,17 +177,13 @@ img.site-image {
   margin-right: 18px;
 }
 
+.navigation .page-link:visited, .date a:visited, footer p a:visited {
+  color: #F1F1F150;
+}
+
 footer p {
   margin: 0;
 }
-
-@media screen and (max-width: 600px) { .site-nav { position: absolute; top: 9px; right: 30px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
-  .site-nav .menu-icon { display: block; float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; }
-  .site-nav .menu-icon > svg { width: 18px; height: 15px; }
-  .site-nav .menu-icon > svg path { fill: #424242; }
-  .site-nav .trigger { clear: both; display: none; }
-  .site-nav:hover .trigger { display: block; padding-bottom: 5px; }
-  .site-nav .page-link { display: block; padding: 5px 10px; } }
 
 /** Site footer */
 .site-footer {
@@ -234,12 +225,19 @@ footer p {
   margin-bottom: 120px;
 }
 
-.post-link { display: block; font-size: 24px; }
+li.h-entry:last-of-type {
+  margin-bottom: 0px;
+}
+
+.post-link {
+  display: block;
+  font-size: 24px;
+}
 
 /** Posts */
-.post-header { margin-bottom: 30px; }
-
-.post-title { font-size: 26px; letter-spacing: -1px; line-height: 1; }
+.post-header {
+  margin-bottom: 30px;
+}
 
 @media screen and (max-width: 800px) { .post-title { font-size: 26px; } }
 
@@ -253,9 +251,13 @@ h1 { font-size: 26px; margin-bottom: 0px; }
 .post-content h4 { font-size: 20px; }
 @media screen and (max-width: 800px) { .post-content h4 { font-size: 20px; } }
 
-#post-nav { padding-top: 25px; }
+#post-nav {
+  padding-top: 25px;
+}
 
-#post-nav .prev { padding-right: 10px; }
+#post-nav .prev {
+  padding-right: 10px;
+}
 
 video {
 	max-width: 100%;
