@@ -52,11 +52,13 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, h1 a, h1 a:visited {
   font-size: 58px;
-  line-height: 120%;
   color: #F1F1F1;
   text-decoration: none;
   letter-spacing: -.5px;
-  margin-bottom: 30px;
+}
+
+.h-entry h1 {
+  line-height: 120%;
 }
 
 h3 {
@@ -70,16 +72,16 @@ h3 {
 }
 
 /** Links */
-a {
+.e-content a {
   color: #FAC919;
   text-decoration: none;
 }
 
-a:visited {
+.e-content a:visited {
   color: #FAC919;
 }
 
-a:hover {
+.e-content a:hover {
   color: #cda100;
   text-decoration: underline;
 }
@@ -166,7 +168,7 @@ pre > code {
 img.site-image {
   border-radius: 100px;
   width: 100px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .site-title {
@@ -179,10 +181,6 @@ img.site-image {
 
 .site-title, .site-title:visited {
   color: #F1F1F1;
-}
-
-.site-title:hover {
-  text-decoration: none;
 }
 
 .navigation .page-link, .date, a.date, footer p, footer p a {
