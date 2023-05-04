@@ -16,8 +16,12 @@ body {
   padding: 0 32px;
 }
 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
-  margin-bottom: 20px;
+h2, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
+  margin-bottom: 26px;
+}
+
+h1 {
+  margin-bottom: 30px;
 }
 
 /** Images */
@@ -63,7 +67,7 @@ h1, h1 a, h1 a:visited {
 }
 
 .h-entry h1 {
-  line-height: 120%;
+  line-height: 110%;
 }
 
 h3 {
@@ -173,19 +177,23 @@ pre > code {
 img.site-image {
   border-radius: 100px;
   width: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .site-title {
   font-size: 56px;
   letter-spacing: -.25px;
-  margin: 0 0 6px 0;
+  margin: 0 0 18px 0;
   color: #F1F1F1;
   text-decoration: none;
 }
 
 .site-title, .site-title:visited {
   color: #F1F1F1;
+}
+
+.navigation {
+  line-height: 100%;
 }
 
 .navigation .page-link, .date, a.date, footer p, footer p a {
@@ -203,8 +211,8 @@ img.site-image {
   line-height: 100%;
 }
 
-a.date:hover {
-  color: #FAC919;
+.navigation .page-link:hover, a.date:hover {
+  color: #F1F1F1;
   text-decoration: underline;
 }
 
@@ -237,7 +245,7 @@ footer p {
 
 /** Page content */
 .page-content {
-  padding: 120px 0;
+  padding: 110px 0 120px 0;
 }
 
 .page-content ul {
@@ -263,10 +271,6 @@ li.h-entry:last-of-type {
 }
 
 /** Posts */
-.post-header {
-  margin-bottom: 30px;
-}
-
 @media screen and (max-width: 800px) { 
   .post-title { font-size: 26px; 
   }
