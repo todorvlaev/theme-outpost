@@ -6,7 +6,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 
 /** Basic styling */
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 28px;
   line-height: 150%;
   font-weight: normal;
@@ -57,6 +57,11 @@ h1, h1 a, h1 a:visited {
   letter-spacing: -.5px;
 }
 
+.h-entry h1:hover {
+  color: #F1F1F1;
+  text-decoration: underline;
+}
+
 .h-entry h1 {
   line-height: 120%;
 }
@@ -72,16 +77,16 @@ h3 {
 }
 
 /** Links */
-.e-content a {
+.e-content p a {
   color: #FAC919;
   text-decoration: none;
 }
 
-.e-content a:visited {
+.e-content p a:visited {
   color: #FAC919;
 }
 
-.e-content a:hover {
+.e-content p a:hover {
   color: #cda100;
   text-decoration: underline;
 }
@@ -168,13 +173,13 @@ pre > code {
 img.site-image {
   border-radius: 100px;
   width: 100px;
-  margin-bottom: 24px;
+  margin-bottom: 30px;
 }
 
 .site-title {
   font-size: 56px;
   letter-spacing: -.25px;
-  margin: 0;
+  margin: 0 0 6px 0;
   color: #F1F1F1;
   text-decoration: none;
 }
@@ -184,14 +189,14 @@ img.site-image {
 }
 
 .navigation .page-link, .date, a.date, footer p, footer p a {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Roboto Mono', monospace;
   text-decoration: none;
   font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
   color: #F1F1F150;
-  margin-right: 18px;
+  margin-right: 14px;
 }
 
 .navigation .page-link {
