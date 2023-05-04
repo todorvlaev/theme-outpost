@@ -58,6 +58,16 @@ h1, h1 a, h1 a:visited {
   letter-spacing: -.5px;
 }
 
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #2a7ae2;
+  margin: 0;
+  display: inline-block;
+}
+
 /** Links */
 a {
   color: #2a7ae2;
@@ -166,7 +176,7 @@ img.site-image {
   color: #F1F1F1;
 }
 
-.navigation .page-link, .date, .date a, footer p, footer p a {
+.navigation .page-link, .date, a.date, footer p, footer p a {
   font-family: 'Inconsolata', monospace;
   text-decoration: none;
   font-size: 18px;
@@ -177,7 +187,7 @@ img.site-image {
   margin-right: 18px;
 }
 
-.navigation .page-link:visited, .date a:visited, footer p a:visited {
+.navigation .page-link:visited, a.date:visited, footer p a:visited {
   color: #F1F1F150;
 }
 
