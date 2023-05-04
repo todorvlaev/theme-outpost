@@ -11,7 +11,7 @@ body {
   line-height: 150%;
   font-weight: normal;
   color: #F1F1F1;
-  background-color: #1F2937;
+  background-color: #232323;
   margin: 120px auto;
   padding: 0 32px;
 }
@@ -71,16 +71,16 @@ h3 {
 
 /** Links */
 a {
-  color: #2a7ae2;
+  color: #FAC919;
   text-decoration: none;
 }
 
 a:visited {
-  color: #2a7ae2;
+  color: #FAC919;
 }
 
 a:hover {
-  color: #518cd9;
+  color: #cda100;
   text-decoration: underline;
 }
 
@@ -90,7 +90,7 @@ blockquote {
   padding-left: 36px;
   color: #F1F1F1;
   margin: 32px 0 24px 0;
-  border-left: 10px solid #2a7ae2;
+  border-left: 10px solid #FAC919;
 }
 
 blockquote > :last-child {
