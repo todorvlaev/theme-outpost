@@ -2,9 +2,9 @@
 
   <div class="wrapper">
 
-    <img src="{{ .Site.Author.avatar }}" class="site-image">
+    <a href="/"><img src="{{ .Site.Author.avatar }}" class="site-image"></a>
 
-    <h1 class="site-title">{{ .Site.Title }}</h1>
+    <h1 class="site-title"><a href="/">{{ .Site.Title }}</a></h1>
 
     <div class="navigation">
 		  {{ range .Site.Menus.main }}

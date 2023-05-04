@@ -8,7 +8,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 body {
   font-family: 'Inter', sans-serif;
   font-size: 28px;
-  line-height: 140%;
+  line-height: 150%;
   font-weight: normal;
   color: #F1F1F1;
   background-color: #1F2937;
@@ -56,6 +56,7 @@ h1, h1 a, h1 a:visited {
   color: #F1F1F1;
   text-decoration: none;
   letter-spacing: -.5px;
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -64,7 +65,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #2a7ae2;
-  margin: 0;
+  margin: 0 0 24px 0;
   display: inline-block;
 }
 
@@ -200,23 +201,16 @@ footer p {
   padding: 0;
 }
 
-.footer-heading { font-size: 18px; margin-bottom: 15px; }
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
 
-.contact-list, .social-media-list { list-style: none; margin-left: 0; }
+.contact-list, .social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
 
-.footer-col-wrapper { font-size: 15px; color: #828282; margin-left: -15px; }
-
-.footer-col { float: left; margin-bottom: 15px; padding-left: 15px; }
-
-.footer-col-1 { width: -webkit-calc(35% - (30px / 2)); width: calc(35% - (30px / 2)); }
-
-.footer-col-2 { width: -webkit-calc(20% - (30px / 2)); width: calc(20% - (30px / 2)); }
-
-.footer-col-3 { width: -webkit-calc(45% - (30px / 2)); width: calc(45% - (30px / 2)); }
-
-@media screen and (max-width: 800px) { .footer-col-1, .footer-col-2 { width: -webkit-calc(50% - (30px / 2)); width: calc(50% - (30px / 2)); }
-  .footer-col-3 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
-@media screen and (max-width: 600px) { .footer-col { float: none; width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
 /** Page content */
 .page-content {
   padding: 120px 0;
@@ -249,11 +243,15 @@ li.h-entry:last-of-type {
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 800px) { .post-title { font-size: 26px; } }
+@media screen and (max-width: 800px) { 
+  .post-title { font-size: 26px; 
+  }
+}
 
-h1 { font-size: 26px; margin-bottom: 0px; }
+.post-content {
+  margin-bottom: 30px;
+}
 
-.post-content { margin-bottom: 30px; }
 .post-content h2 { font-size: 24px; }
 @media screen and (max-width: 800px) { .post-content h2 { font-size: 24px; } }
 .post-content h3 { font-size: 22px; }
