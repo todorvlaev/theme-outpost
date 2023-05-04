@@ -1,22 +1,71 @@
 /** Reset some basic elements */
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl, 
+dd,
+ol,
+ul,
+figure {
+  margin: 0;
+  padding: 0; 
+}
 
 /** Basic styling */
-body { font-family: Helvetica, Arial, sans-serif; font-size: 20px; line-height: 1.5; font-weight: 300; color: #111111; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; }
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  line-height: 140%;
+  font-weight: normal;
+  color: #F1F1F1;
+  background-color: #1F2937;
+}
 
 /** Set `margin-bottom` to maintain vertical rhythm */
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure, .highlight {
+  margin-bottom: 15px;
+}
 
 /** Images */
-img { max-width: 100%; height: auto; vertical-align: middle; }
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
 
 /** Figures */
-figure > img { display: block; }
+figure > img {
+  display: block;
+}
 
-figcaption { font-size: 17.5px; }
+figcaption {
+  font-size: 17.5px;
+}
 
 /** Lists */
-ul, ol { margin-left: 30px; }
+ul, ol {
+  margin-left: 30px;
+}
 
 li > ul, li > ol { margin-bottom: 0; }
 
