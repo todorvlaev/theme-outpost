@@ -6,7 +6,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 
 /** Basic styling */
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 28px;
   line-height: 140%;
   font-weight: normal;
@@ -16,7 +16,6 @@ body {
   padding: 0 32px;
 }
 
-/** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   margin-bottom: 30px;
 }
@@ -58,11 +57,11 @@ a {
 }
 
 a:visited {
-  color: #1756a9;
+  color: #2a7ae2;
 }
 
 a:hover {
-  color: #111111;
+  color: #518cd9;
   text-decoration: underline;
 }
 
@@ -134,6 +133,10 @@ img.site-image {
 
 .site-title, .site-title:visited {
   color: #F1F1F1;
+}
+
+.dot {
+  color: #2a7ae2;
 }
 
 .navigation .page-link {
