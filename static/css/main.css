@@ -247,7 +247,7 @@ footer p {
 }
 
 .site-footer .footer-title {
-  margin-left: 10px;
+  margin-left: 0;
 }
 
 /** Page content */
@@ -283,8 +283,8 @@ li.h-entry:last-of-type {
   }
 }
 
-.post-content {
-  margin-bottom: 30px;
+.post-content p:last-of-type {
+  margin-bottom: 0;
 }
 
 .post-content h2 { font-size: 24px; }
@@ -323,4 +323,39 @@ video {
 .archive_categories p a:hover {
   color: #F1F1F1;
   text-decoration: underline;
+}
+
+/** Mobile **/
+@media screen and (max-width: 800px) {
+
+  body {
+    font-size: 20px;
+    margin: 60px auto;
+  }
+
+  img.site-image {
+    width: 80px;
+    margin-bottom: 30px;
+  }
+
+  .page-content {
+    padding: 60px 0;
+  }
+
+  h1, h1 a, h1 a:visited {
+    font-size: 42px;
+  }
+
+  h3, .navigation .page-link, .date, a.date, footer p, footer p a {
+    font-size: 14px;
+  }
+
+  .site-footer .copy, blockquote {
+    font-size: 20px;
+  }
+
+  .post-list > li {
+    margin-bottom: 60px;
+  }
+
 }
