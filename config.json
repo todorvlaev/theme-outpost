@@ -1,2 +1,7 @@
 {
+	"params": {
+		"outpost_text_color": "#F1F1F1",
+		"outpost_background_color": "#012030",
+		"outpost_accent_color": "#45C4B0"
+	}
 }

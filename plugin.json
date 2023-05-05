@@ -1,5 +1,22 @@
 {
-	"version": "1.0.5",
-	"title": "Default theme",
-	"description": "Micro.blog's original theme. Plain layout and styling."
+	"version": "1.0.0",
+	"title": "Outpost theme",
+	"description": "A simple, bold, opinionated theme for Micro.blog.",
+	"fields": [
+		{
+			"field": "params.outpost_text_color",
+			"label": "Text color",
+			"type": "color"
+		},
+		{
+			"field": "params.outpost_background_color",
+			"label": "Background color",
+			"type": "color"
+		},
+		{
+			"field": "params.outpost_accent_color",
+			"label": "Accent color",
+			"type": "color"
+		}
+	]
 }
