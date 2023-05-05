@@ -94,12 +94,12 @@ h3 {
 }
 
 /** Links */
-.e-content p a, .h-entry a {
+.e-content p a, .h-entry a, .e-content p a:visited {
   color: #F1F1F1;
   text-decoration: underline;
 }
 
-.e-content p a:hover, .e-content p a:visited, .h-entry a:hover {
+.e-content p a:hover, .h-entry a:hover {
   color: #45C4B0;
 }
 
@@ -225,7 +225,7 @@ img.site-image {
 }
 
 .navigation .page-link:hover, a.date:hover {
-  color: #F1F1F1;
+  color: #45C4B0;
   text-decoration: underline;
 }
 
