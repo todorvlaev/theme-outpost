@@ -26,9 +26,13 @@ h1 {
 
 /** Images */
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   vertical-align: middle;
+}
+
+e-content img {
+  margin: 14px 0 34px 0;
 }
 
 /** Figures */
