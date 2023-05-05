@@ -1,7 +1,7 @@
 # Outpost for Micro.blog
 A simple, bold, opinionated theme for [Micro.blog](https://micro.blog) that gives your words room to shine.
 
-![Outpost theme](screenshot.png)
+![Outpost theme](../screenshot.png)
 
 ## Install
 To use this theme, simply install it through the plug-in gallery on Micro.blog.

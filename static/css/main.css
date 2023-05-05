@@ -334,7 +334,11 @@ video {
 }
 
 iframe {
-  margin-bottom: 26px;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 100%;
+  min-height: 510px;
+  overflow: hidden;
 }
 
 /** Archive **/
