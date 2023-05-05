@@ -299,12 +299,31 @@ li.h-entry:last-of-type {
 .post-content h4 { font-size: 20px; }
 @media screen and (max-width: 800px) { .post-content h4 { font-size: 20px; } }
 
+/** Pagination **/
 #post-nav {
-  padding-top: 25px;
+  padding-top: 120px;
 }
 
 #post-nav .prev {
-  padding-right: 10px;
+  margin-right: 18px;
+  background: #45C4B0;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+
+#post-nav .next {
+  background: #45C4B0;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+
+#post-nav .next a, #post-nav .next a {
+  color: #F1F1F1;
+  text-decoration: none;
+}
+
+#post-nav .next a:hover, #post-nav .next a:hover {
+  background: #45C4B090;
 }
 
 video {
