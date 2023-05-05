@@ -404,7 +404,7 @@ video {
 /** Mobile **/
 @media screen and (max-width: 800px) {
 
-  body, .microblog_text p, .microblog_text p a {
+  body {
     font-size: 20px;
     margin: 60px auto;
     padding: 0 12px;
@@ -427,7 +427,7 @@ video {
     font-size: 14px;
   }
 
-  .site-footer .copy, blockquote {
+  .site-footer .copy, blockquote, .microblog_text p, .microblog_text p a {
     font-size: 20px;
   }
 
