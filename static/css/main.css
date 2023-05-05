@@ -316,7 +316,7 @@ li.h-entry:last-of-type {
   border-radius: 8px;
 }
 
-#post-nav .next a:hover, #post-nav .next a:hover {
+#post-nav .prev a:hover, #post-nav .next a:hover {
   background: #F1F1F1;
 }
 
@@ -365,10 +365,14 @@ video {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  color: ##F1F1F1;
+  color: #45C4B0;
   margin: 0 0 24px 0;
   display: flex;
   align-items: center;
+}
+
+.microblog_avatar {
+  display: none;
 }
 
 .microblog_text p, .microblog_text p a {
@@ -376,6 +380,10 @@ video {
   line-height: 150%;
   color: #F1F1F1;
   margin-bottom: 24px;
+}
+
+.microblog_text p a:hover {
+  color: #45C4B0;
 }
 
 .microblog_time a {
