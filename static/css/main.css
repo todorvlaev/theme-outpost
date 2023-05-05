@@ -308,7 +308,7 @@ li.h-entry:last-of-type {
   padding-right: 18px;
 }
 
-#post-nav .next a, #post-nav .next a {
+#post-nav .prev a, #post-nav .next a {
   color: #012030;
   font-weight: bold;
   text-decoration: none;
@@ -340,6 +340,65 @@ video {
 }
 
 .archive_categories p a:hover {
+  color: #F1F1F1;
+  text-decoration: underline;
+}
+
+/** Conversations **/
+
+.microblog_conversation {
+  margin: 60px 0 0 0;
+}
+
+.microblog_conversation .microblog_post {
+  margin-bottom: 32px;
+  padding: 42px;
+  background: #F1F1F110;
+  border-radius: 8px;
+}
+
+.microblog_conversation .microblog_post:last-of-type {
+  margin-bottom: 0px;
+}
+
+.microblog_user {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: ##F1F1F1;
+  margin: 0 0 30px 0;
+  display: flex;
+  align-items: center;
+}
+
+img.microblog_avatar {
+  width: 60px;
+  max-width: 60px;
+  height: auto;
+  border-radius: 100px;
+  margin: -3px 10px 0 0;
+  display: none;
+}
+
+.microblog_text p, .microblog_text p a {
+  font-size: 28px;
+  line-height: 160%;
+  color: #F1F1F1;
+  margin-bottom: 30px;
+}
+
+.microblog_time a {
+  color: #F1F1F170;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.microblog_text p a:hover, .microblog_time a:hover {
   color: #F1F1F1;
   text-decoration: underline;
 }
