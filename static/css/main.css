@@ -288,9 +288,9 @@ li.h-entry:last-of-type {
   }
 }
 
-.post-content p:last-of-type {
+/* .post-content p:last-of-type {
   margin-bottom: 0;
-}
+} */
 
 .post-content h2 { font-size: 24px; }
 @media screen and (max-width: 800px) { .post-content h2 { font-size: 24px; } }
@@ -310,7 +310,6 @@ li.h-entry:last-of-type {
 
 #post-nav .prev a, #post-nav .next a {
   color: #012030;
-  font-weight: bold;
   text-decoration: none;
   background: #45C4B0;
   padding: 12px 24px;
@@ -363,29 +362,20 @@ video {
 
 .microblog_user {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1.2px;
   color: ##F1F1F1;
-  margin: 0 0 30px 0;
+  margin: 0 0 24px 0;
   display: flex;
   align-items: center;
 }
 
-img.microblog_avatar {
-  width: 60px;
-  max-width: 60px;
-  height: auto;
-  border-radius: 100px;
-  margin: -3px 10px 0 0;
-  display: none;
-}
-
 .microblog_text p, .microblog_text p a {
   font-size: 28px;
-  line-height: 160%;
+  line-height: 150%;
   color: #F1F1F1;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .microblog_time a {
@@ -406,7 +396,7 @@ img.microblog_avatar {
 /** Mobile **/
 @media screen and (max-width: 800px) {
 
-  body {
+  body, .microblog_text p, .microblog_text p a {
     font-size: 20px;
     margin: 60px auto;
     padding: 0 12px;
@@ -425,7 +415,7 @@ img.microblog_avatar {
     font-size: 42px;
   }
 
-  h3, .navigation .page-link, .date, a.date, footer p, footer p a {
+  h3, .navigation .page-link, .date, a.date, footer p, footer p a, .microblog_user, .microblog_time a {
     font-size: 14px;
   }
 
