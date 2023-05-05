@@ -31,8 +31,9 @@ img {
   vertical-align: middle;
 }
 
-e-content img {
+.e-content img {
   margin: 14px 0 34px 0;
+  border-radius: 4px;
 }
 
 /** Figures */
