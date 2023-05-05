@@ -47,11 +47,15 @@ figcaption {
 
 /** Lists */
 ul, ol {
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 li > ul, li > ol {
   margin-bottom: 0;
+}
+
+ul li:last-of-type {
+  margin-bottom: 26px;
 }
 
 /** Headings */
@@ -101,6 +105,11 @@ h3 {
 
 a, p a {
   transition: all .2s ease;
+  color: #F1F1F1;
+}
+
+a:hover, p a:hover {
+  color: #45C4B0;
 }
 
 /** Blockquotes */
@@ -322,6 +331,10 @@ li.h-entry:last-of-type {
 
 video {
 	max-width: 100%;
+}
+
+iframe {
+  margin-bottom: 26px;
 }
 
 /** Archive **/
