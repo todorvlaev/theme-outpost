@@ -4,7 +4,7 @@ A simple, bold, opinionated theme for [Micro.blog](https://micro.blog) that give
 ![Outpost theme](screenshot.png)
 
 ## Install
-To use this theme, simply copy the git URL when creating a new theme on Micro.blog.
+To use this theme, simply install it through the plug-in gallery on Micro.blog.
 
 ## Help
-If you're having issues or seeing any bugs, [let me know](https://hey.mikehayn.es/contact/) and I'll do my best to address them ASAP.
+If you're having issues or encountering bugs, [let me know](https://hey.mikehayn.es/contact/) and I'll do my best to address them ASAP.
