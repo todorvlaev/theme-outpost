@@ -127,14 +127,14 @@ blockquote > :last-child {
 
 /** Code formatting */
 pre, code {
-  font-size: 15px;
-  border: 1px solid #e8e8e8;
-  border-radius: 3px;
-  background-color: #eef;
+  font-size: 28px;
+  border-radius: 4px;
+  background-color: #45C4B070;
+  color: #F1F1F1;
 }
 
 code {
-  padding: 1px 5px;
+  padding: 4px 8px;
 }
 
 pre {
