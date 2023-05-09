@@ -14,9 +14,9 @@ Simply navigate to “Design” and click the “Edit CSS” button. Paste the f
 ```
 body { background-color: #012030; }
 
-h3, .e-content p a:hover, .h-entry a:hover, .microblog_user, .navigation a.page-link:hover, a.date:hover { color: #45C4B0; }
+h3, h3 a, h3 a:hover, .e-content p a:hover, .h-entry a:hover, .microblog_user, .navigation a.page-link:hover, a.date:hover { color: #45C4B0; }
 
-pre, code { background-color: #FF686870; }
+pre, code { background-color: #011824; }
 
 blockquote { border-left: 10px solid #45C4B0; }
 
