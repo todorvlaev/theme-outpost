@@ -1,7 +1,7 @@
 # Outpost for Micro.blog
 A simple, bold, opinionated theme for [Micro.blog](https://micro.blog) that gives your words room to shine.
 
-![Outpost theme](/screenshot.png)
+![Outpost theme](https://github.com/heymikehaynes/outpost/raw/master/screenshot.png)
 
 ## Install
 To use this theme, simply install it through the plug-in gallery on Micro.blog.
@@ -38,6 +38,10 @@ If you’re looking to change the sizing of the text, you’ll want to target th
 ```
 body, .site-footer .copy, blockquote, .microblog_text p, .microblog_text p a, code {
 	font-size: 28px;
+}
+
+code {
+	font-size: 24px;
 }
 
 h1, h1 a {
