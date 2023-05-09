@@ -3,8 +3,8 @@
 
   <header class="post-header">
 	  
-	{{ if isset .Params "categories" }}{{ $href := print (absURL "categories/" (utilize .)) }}    
-	  <h3><a href="{{ $href }}">{{ range .Params.categories }}{{ . }}</a> {{ end }}</h3>
+	{{ if isset .Params "categories" }}    
+	  <h3>{{ range .Params.categories }}{{ . }}{{ end }}</h3>
 	{{ else }}
 	{{ end }}
 	  
