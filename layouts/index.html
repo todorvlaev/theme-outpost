@@ -7,8 +7,8 @@
 	{{ range $paginator.Pages  }}
     <li class="h-entry {{ range .Params.categories }}{{ . }}{{ end }}">
         
-    {{ if isset .Params "categories" }}    
-      <h3>{{ range .Params.categories }}{{ . }}{{ end }}</h3>
+    {{ if isset .Params "categories" }}{{ $href := print (absURL "categories/" (utilize .)) }}    
+      <h3><a href="{{ $href }}">{{ range .Params.categories }}{{ . }}</a> {{ end }}</h3>
     {{ else }}
     {{ end }}
     

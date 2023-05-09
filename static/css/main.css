@@ -32,7 +32,7 @@ img {
 }
 
 .e-content img {
-  margin: 14px 0 34px 0;
+  margin: 14px 0 44px 0;
   border-radius: 4px;
 }
 
@@ -112,6 +112,15 @@ a:hover, p a:hover {
   color: #45C4B0;
 }
 
+h3 a {
+  color: #45C4B0;
+  text-decoration: none;
+}
+
+h3 a:hover {
+  text-decoration: underline;
+}
+
 /** Blockquotes */
 blockquote {
   font-size: 28px;
@@ -129,7 +138,7 @@ blockquote > :last-child {
 pre, code {
   font-size: 28px;
   border-radius: 4px;
-  background-color: #45C4B070;
+  background-color: #011824;
   color: #F1F1F1;
 }
 
@@ -138,8 +147,9 @@ code {
 }
 
 pre {
-  padding: 8px 12px;
+  padding: 24px 32px;
   overflow-x: scroll; 
+  margin: 36px 0;
 }
 
 pre > code {
