@@ -6,10 +6,13 @@
 	{{ $paginator := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") }}
 	{{ range $paginator.Pages  }}
     <li class="h-entry {{ range .Params.categories }}{{ . }}{{ end }}">
-        
-    {{ if isset .Params "categories" }}    
-      <h3>{{ range .Params.categories }}{{ . }} {{ end }}</h3>
-    {{ else }}
+    
+    {{ if isset .Params "categories" }}
+      {{ range $index, $category := .Params.categories }}
+        {{ $href := printf "/categories/%s" (urlize $category) | absURL }}
+        {{ if gt $index 0 }}<span class="seperator">,</span> {{ end }}
+        <h3><a href="{{ $href }}">{{ $category }}</a></h3>
+      {{ end }}
     {{ end }}
     
 		{{ if .Title }}

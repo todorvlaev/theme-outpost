@@ -93,8 +93,12 @@ h3 {
   display: inline-block;
 }
 
+.seperator {
+  color: #45C4B0;
+}
+
 /** Links */
-.e-content p a, .h-entry a, .e-content p a:visited {
+.e-content p a, .e-content p a:visited {
   color: #F1F1F1;
   text-decoration: underline;
 }
