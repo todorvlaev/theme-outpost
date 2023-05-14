@@ -350,7 +350,7 @@ iframe {
 }
 
 .archive_categories p a:hover {
-  color: var(--text);
+  color: var(--accent);
   opacity: 1;
   text-decoration: underline;
 }
