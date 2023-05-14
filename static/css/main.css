@@ -147,7 +147,7 @@ blockquote > :last-child {
 pre, code {
   font-size: 24px;
   border-radius: 4px;
-  background: var(--text)10;
+  background: #00000050;
   color: var(--text);
 }
 
@@ -190,14 +190,6 @@ pre > code {
   clear: both; 
 }
 
-/** Icons */
-.icon > svg {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  vertical-align: middle;
-}
-
 /** Site header */
 .site-header { 
 }
@@ -231,7 +223,8 @@ img.site-image {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
-  color: var(--text)70;
+  color: var(--text);
+  opacity: .4;
   margin-right: 14px;
 }
 
@@ -242,6 +235,7 @@ img.site-image {
 .navigation a.page-link:hover, a.date:hover {
   color: var(--accent);
   text-decoration: underline;
+  opacity: 1;
 }
 
 .post p.date {
