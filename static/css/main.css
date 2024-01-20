@@ -228,7 +228,7 @@ img.site-image {
   line-height: 100%;
 }
 
-.navigation a.page-link, .date, a.date, footer p, footer p a {
+.navigation a.page-link, .date, a.date, footer p, footer p a, .conversation-on-mb {
   font-family: 'Atkinson Hyperlegible', 'Roboto Mono', monospace;
   text-decoration: none;
   font-size: 18px;
