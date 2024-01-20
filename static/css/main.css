@@ -97,6 +97,11 @@ h3 {
   display: inline-block;
 }
 
+hr {
+	margin: 1.5em auto 1.5em auto;
+	width: 50%;
+}
+
 .seperator {
   color: var(--accent);
   margin: 0 4px 0 -8px;
