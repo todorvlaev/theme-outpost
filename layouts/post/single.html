@@ -19,6 +19,8 @@
   <article class="post-content e-content">
 	{{ .Content }}
   </article>
+
+  <p>{{ partial "conversation-link.html" . }}</p>
   
   <p class="u-url date">{{ .Date.Format "Monday January 2, 2006" }}</p>
 
