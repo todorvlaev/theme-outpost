@@ -100,6 +100,10 @@ h3 {
 hr {
 	margin: 1.5em auto 1.5em auto;
 	width: 50%;
+  display: block;
+  border: none;
+  background: var(--text);
+  height: 4px;
 }
 
 .seperator {
