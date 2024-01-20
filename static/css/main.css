@@ -1,3 +1,6 @@
+/* Atkinson Hyperlegible font */
+@import url('https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible&display=swap');
+
 /** Color customization **/
 :root {
   --text: #F1F1F1;
@@ -13,7 +16,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 
 /** Basic styling */
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Atkinson Hyperlegible', 'Rubik', sans-serif;
   font-size: 28px;
   line-height: 150%;
   font-weight: normal;
@@ -226,7 +229,7 @@ img.site-image {
 }
 
 .navigation a.page-link, .date, a.date, footer p, footer p a {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Atkinson Hyperlegible', 'Roboto Mono', monospace;
   text-decoration: none;
   font-size: 18px;
   text-transform: uppercase;
@@ -416,7 +419,7 @@ iframe {
   text-transform: uppercase;
   letter-spacing: 1px;
   text-decoration: none;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Atkinson Hyperlegible', 'Roboto Mono', monospace;
 }
 
 .microblog_time a:hover {
