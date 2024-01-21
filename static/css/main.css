@@ -237,6 +237,8 @@ img.site-image {
   letter-spacing: 1px;
   color: var(--text);
   opacity: .4;
+  display: inline-block;
+  margin-top: 5px;
   margin-right: 5px;
 }
 
