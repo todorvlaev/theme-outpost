@@ -215,7 +215,7 @@ img.site-image {
 .site-title {
   font-size: 2em;
   letter-spacing: 1px;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.5em;
   color: var(--text);
   text-decoration: none;
 }
@@ -237,16 +237,18 @@ img.site-image {
   letter-spacing: 1px;
   color: var(--text);
   opacity: .4;
-  margin-right: 14px;
+  margin-right: 5px;
 }
 
 .navigation .page-link {
   line-height: 100%;
+  border: 2px solid var(--accent);
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
 .navigation a.page-link:hover, a.date:hover {
   color: var(--accent);
-  text-decoration: underline;
   opacity: 1;
 }
 
