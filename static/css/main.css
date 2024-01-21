@@ -213,12 +213,11 @@ img.site-image {
 }
 
 .site-title {
-  font-size: 44px;
-  letter-spacing: -.25px;
-  margin: 0;
+  font-size: 2em;
+  letter-spacing: 1px;
+  margin-bottom: 0.2em;
   color: var(--text);
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .site-title, .site-title:visited {
