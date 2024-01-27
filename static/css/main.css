@@ -17,7 +17,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 /** Basic styling */
 body {
   font-family: 'Atkinson Hyperlegible', 'Rubik', sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 150%;
   font-weight: normal;
   color: var(--text);
@@ -66,7 +66,7 @@ h1 {
 }
 
 h1, h1 a, h1 a:visited {
-  font-size: 58px;
+  font-size: 48px;
   line-height: 120%;
   color: var(--text);
   text-decoration: none;
@@ -144,7 +144,7 @@ h3 a:hover {
 
 /** Blockquotes */
 blockquote {
-  font-size: 28px;
+  font-size: 24px;
   padding-left: 36px;
   color: var(--text);
   margin: 32px 0 24px 0;
@@ -157,7 +157,7 @@ blockquote > :last-child {
 
 /** Code formatting */
 pre, code {
-  font-size: 24px;
+  font-size: 20px;
   border-radius: 4px;
   background: #00000050;
   color: var(--text);
@@ -281,7 +281,7 @@ footer p {
 }
 
 .site-footer .copy {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .site-footer .footer-title {
@@ -312,7 +312,7 @@ li.h-entry:last-of-type {
 
 .post-link {
   display: block;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 /** Pagination **/
@@ -402,7 +402,7 @@ iframe {
 }
 
 .microblog_text p, .microblog_text p a {
-  font-size: 28px;
+  font-size: 24px;
   line-height: 150%;
   color: var(--text);
   margin-bottom: 24px;
@@ -449,7 +449,7 @@ iframe {
   }
 
   h1, h1 a, h1 a:visited {
-    font-size: 42px;
+    font-size: 38px;
   }
 
   h3, .navigation .page-link, .date, a.date, footer p, footer p a, .microblog_user, .microblog_time a {
