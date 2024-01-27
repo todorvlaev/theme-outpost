@@ -243,7 +243,7 @@ img.site-image {
 
 .navigation .page-link {
   line-height: 100%;
-  border: 2px solid var(--accent);
+  border: 3px solid var(--accent);
   border-radius: 5px;
   padding: 5px 10px;
 }
